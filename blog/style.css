@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'LeagueGothicRegular';
+    src: url('type/LeagueGothic-Regular-webfont.eot');
+    src: url('type/LeagueGothic-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/LeagueGothic-Regular-webfont.woff') format('woff'),
+         url('type/LeagueGothic-Regular-webfont.ttf') format('truetype'),
+         url('type/LeagueGothic-Regular-webfont.svg#LeagueGothicRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeagueGothicItalic';
+    src: url('type/LeagueGothic-Italic-webfont.eot');
+    src: url('type/LeagueGothic-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/LeagueGothic-Italic-webfont.woff') format('woff'),
+         url('type/LeagueGothic-Italic-webfont.ttf') format('truetype'),
+         url('type/LeagueGothic-Italic-webfont.svg#LeagueGothicItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeagueGothicCondensedRegular';
+    src: url('type/LeagueGothic-CondensedRegular-webfont.eot');
+    src: url('type/LeagueGothic-CondensedRegular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/LeagueGothic-CondensedRegular-webfont.woff') format('woff'),
+         url('type/LeagueGothic-CondensedRegular-webfont.ttf') format('truetype'),
+         url('type/LeagueGothic-CondensedRegular-webfont.svg#LeagueGothicCondensedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LeagueGothicCondensedItalic';
+    src: url('type/LeagueGothic-CondensedItalic-webfont.eot');
+    src: url('type/LeagueGothic-CondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/LeagueGothic-CondensedItalic-webfont.woff') format('woff'),
+         url('type/LeagueGothic-CondensedItalic-webfont.ttf') format('truetype'),
+         url('type/LeagueGothic-CondensedItalic-webfont.svg#LeagueGothicCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 1024px;
+	margin-left: 25px;
+}
+
+#header {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+	position: relative;
+}
+
+nav {
+	margin-right: 20px;
+	position: absolute;
+	bottom: 5px;
+	right: -35px;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	width: 75px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+#navbar {
+	float: left; 
+	width: 23%;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+#navbar p {
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: LeagueGothicRegular;
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+section {
+    font-family: Ariel;
+    font-style: thin;
+}
+
+section {
+	margin-top: 30px;
+	width: 70%;
+	float: right;
+	display: inline-block;
+}
