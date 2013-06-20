@@ -1,12 +1,17 @@
 * {
 	margin: 0;
 	padding: 0;
+	color: #4F4F4F;
+}
+
+span {
+	color: #6DB0FC;
 }
 
 header {
 	margin-bottom: 30px;
 	padding-bottom: 7px;
-	border-bottom: 1px solid black;
+	border-bottom: 1px solid #4F4F4F;
 	margin-top: 15px;
 	height: 220px;
 	position: relative;
@@ -14,51 +19,32 @@ header {
 
 body {
 	font-family: "Quicksand", sans-serif;
-	width: 1024px;
+	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
+	text-align: justify;
 }
 
 #headshot {
-	display: inline;
-	position: absolute;
-	right: 0px;
-	top: 0px;
+	float: right;
+	max-width: 100%;
+	max-height:100%;
+
 }
 
 #name {
 	font-size: 40px;
 	font-weight: bold;
-	position: relative;
-	display: block;
-	left: 0px;
-}
-
-#first {
-	display: inline;
-	width: 50%;
-	left:0px;
-	text-align: left;
-}
-
-#last {
-	display: inline;
-	width: 50%;
-	right:0px;
-	text-align: right;
+	float: left;
 }
 
 h2 {
-	position: absolute;
-	bottom: 15px;
-	left: 20px;
 	font-size: 20px;
-	text-align: left;
-	width: 40%;
-	display: inline-block;
 	word-spacing: 5px;
 	letter-spacing: 2px;
+	float: left;
+	line-height: 1.45em;
 }
 
 nav {
@@ -83,6 +69,10 @@ a {
 	display: block;
 }
 
+a:hover {
+	font-weight: bold;
+}
+
 section {
 	margin-top: 25px;
 }
@@ -90,4 +80,9 @@ section {
 h3 {
 	margin-bottom: 15px;
 	font-size: 25px;
+}
+
+p {
+	margin-bottom: 12px;
+	line-height: 22px;
 }
