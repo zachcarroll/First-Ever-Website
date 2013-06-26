@@ -79,9 +79,8 @@ nav ul {
 }
 
 nav ul li {
-	display: inline-block;
-    margin-right: .8em;
-    margin-left: .8em;
+    margin-bottom: .2em;
+    margin-right: .2em;
 }
 
 a {
@@ -95,14 +94,7 @@ p {
 }
 
 #navbar {
-	float: left; 
-	width: 23%;
-	margin-top: 1.8em;
-	font-weight: bold;
-}
-
-#navbar p {
-	margin-bottom: .75em;
+	display: none;
 }
 
 h2 {
@@ -121,7 +113,4 @@ section {
 
 section {
 	margin-top: 1.8em;
-	width: 70%;
-	float: right;
-	display: inline-block;
 }
