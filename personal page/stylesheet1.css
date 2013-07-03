@@ -45,6 +45,11 @@ h2 {
 	letter-spacing: 2px;
 	float: left;
 	line-height: 1.45em;
+	width: 40%;
+}
+
+h2:hover {
+	margin-left: 20px;
 }
 
 nav {
@@ -63,14 +68,28 @@ nav ul li {
 	padding: 5px;
 }
 
-a {
+nav a {
 	text-decoration: none;
-	color: black;
+	color: #4F4F4F;
 	display: block;
 }
 
-a:hover {
+nav li ul {
+	display: none;
+}
+
+nav li:hover ul {
+	display: block;
+	position: absolute;
+}
+
+#dropdown {
+	display: none;
+}
+
+nav ul li a:hover {
 	font-weight: bold;
+	background-color: #6DB0FC;
 }
 
 section {
@@ -85,4 +104,28 @@ h3 {
 p {
 	margin-bottom: 12px;
 	line-height: 22px;
+}
+
+#Thailand {
+	margin-top: 50px;
+}
+
+#Thailand ul li {
+	list-style: none;
+	display: inline;
+	float: left;
+	margin: 5px 9px;
+}
+
+#Thailand img {
+	border: 3px;
+	border-style: outset;
+}
+
+#Thailand img:hover {
+	border-style: inset;
+}
+
+#Thailand h3 {
+	text-align: center;
 }

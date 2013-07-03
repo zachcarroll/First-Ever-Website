@@ -2,8 +2,12 @@
 <html>
 	<head>
 		<link type = "text/css" rel = "stylesheet" href = "stylesheet1.css" />
+		<link type = "text/css" rel = "stylesheet" href = "lightbox.css" />
 		<link href="http://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type="text/css" />
 		<title>Zach Carroll</title>
+		<script type="text/javascript" src="/jquery.js"></script>
+		<script type="text/javascript" src="/lightbox.js"></script>
+		<script type="text/javascript" src="/scripts.js"></script>
 	</head>
 
 	<body>
@@ -12,11 +16,21 @@
 				<h1><span>Z</span>ach <span>C</span>arroll</h1> 
 			</div>
 			<img src = "images/headshot2.jpg" id = "headshot"/>
-			<h2>Front-end Developer/Designer<br>Business Strategist<br>Adventure Seeker<br>Positivity Spreader</h2>
+			<h2>Front-end Developer/Designer</h2>
+			<h2>Business Strategist<br></h2>
+			<h2>Adventure Seeker</h2>
+			<h2>Positivity Spreader</h2>
 			<nav>
 				<ul>
 					<li><a href = "index.html">About Me</a></li>
-					<li><a href = "photography.html">Photography</a></li>
+					<li><a href = "photography.html">Photography</a>
+						<ul id = "dropdown">
+							<li>Thailand</li>
+							<li>Peru</li>
+							<li>Bonnaroo</li>
+							<li>New York City</li>
+						</ul>
+					</li>
 					<li><a href = "blog1.html">Blog</a></li>
 					<li><a href = "goals.html">Goals</a></li>
 					<li><a href = "contact.html">Contact</a></li>
@@ -24,6 +38,18 @@
 			<nav>
 		</header>
 
+		<div id = "Thailand"> 
+			<h3>Thailand</h3>
+			<ul>
+				<li><a href = "images/Thailand/Thailand_1.jpg"><img src = "images/Thailand/Thailand_1_sm.jpg" /> </a></li>
+				<li><a href = "images/Thailand/Thailand_10.jpg"><img src = "images/Thailand/Thailand_10_sm.jpg" /> </a></li>
+				<li><a href = "images/Thailand/Thailand_3.jpg"><img src = "images/Thailand/Thailand_3_sm.jpg" /> </a></li>
+				<li><a href = "images/Thailand/Thailand_4.jpg"><img src = "images/Thailand/Thailand_4_sm.jpg" /> </a></li>
+				<li><a href = "images/Thailand/Thailand_5.jpg"><img src = "images/Thailand/Thailand_5_sm.jpg" /> </a></li>
+				<li><a href = "images/Thailand/Thailand_6.jpg"><img src = "images/Thailand/Thailand_6_sm.jpg" /> </a></li>
+			</ul>
+		</div>
 
 	</body>
 </html>
+
