@@ -3,7 +3,9 @@
 	<head>
 		<link type = "text/css" rel = "stylesheet" href = "stylesheet1.css" />
 		<link href="http://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type="text/css" />
-		<title>Zach Carroll</title>
+		<title>Zach Carroll - Blog</title>
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src = "script.js" type = "text/javascript"> </script>
 	</head>
 
 	<body>
@@ -12,11 +14,22 @@
 				<h1><span>Z</span>ach <span>C</span>arroll</h1> 
 			</div>
 			<img src = "images/headshot2.jpg" id = "headshot"/>
-			<h2>Front-end Developer/Designer<br>Business Strategist<br>Adventure Seeker<br>Positivity Spreader</h2>
+			<h2>Front-end Developer/Designer</h2>
+			<h2>Business Strategist</h2>
+			<h2>Adventure Seeker</h2>
+			<h2>Positivity Spreader</h2>
+			<div class = "clear"></div>
 			<nav>
 				<ul>
 					<li><a href = "index.html">About Me</a></li>
-					<li><a href = "photography.html">Photography</a></li>
+					<li><a href = "photography.html">Photography</a>
+						<ul id = "dropdown">
+							<li>Thailand</li>
+							<li>Peru</li>
+							<li>Bonnaroo</li>
+							<li>NYC</li>
+						</ul>
+					</li>
 					<li><a href = "blog1.html">Blog</a></li>
 					<li><a href = "goals.html">Goals</a></li>
 					<li><a href = "contact.html">Contact</a></li>

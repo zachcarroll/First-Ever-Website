@@ -51,14 +51,14 @@ h2:hover {
 }
 
 nav {
-	margin-top: 14px;
+	margin-top: 8px;
 	text-align: center;
 	font-style: italic;
 	word-spacing: 3px;
 	letter-spacing: 2px;
 	float: right;
 	color: #4F4F4F;
-	background-color: #e4e4e4;
+	background-color: white;
 }
 
 .clear {
@@ -75,24 +75,30 @@ nav ul li {
 nav a {
 	text-decoration: none;
 	display: block;
-	padding-top: 2px;
-	padding-bottom: 2px;
 }
 
 #dropdown {
 	display: none;
+	position: absolute;
+	width: 12%;
 }
 
 nav li:hover #dropdown {
-	display: inline;
+	display: block;
 	position: absolute;
-	color: #4F4F4F;
-	background-color: #e4e4e4;
+	background-color: white;
+}
+
+nav li:hover #dropdown li {
+	display: block;
+	position: relative;
+	text-align: left;
+	background-color: white;
 }
 
 #dropdown li:hover {
 	font-weight: bold;
-	color: #4F4F4F;
+	color: #6DB0FC;
 }
 
 nav ul li a:hover {
