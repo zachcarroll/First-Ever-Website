@@ -8,6 +8,17 @@ span {
 	color: #6DB0FC;
 }
 
+.divIcon {
+	position: absolute;
+	margin-top: 156px;
+	margin-left: 295px;
+}
+
+.icons {
+	display: inline;
+	margin-left: 10px;
+}
+
 header {
 	margin-bottom: 30px;
 	padding-bottom: 7px;
