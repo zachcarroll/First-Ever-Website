@@ -10,13 +10,13 @@ span {
 
 .divIcon {
 	position: absolute;
-	margin-top: 156px;
-	margin-left: 295px;
+	margin-top: 13px;
+	margin-left: 965px;
 }
 
 .icons {
-	display: inline;
-	margin-left: 10px;
+	display: block;
+	margin-bottom: 13px;
 }
 
 header {
@@ -62,7 +62,7 @@ h2:hover {
 }
 
 nav {
-	margin-top: 8px;
+	margin-top: 10px;
 	text-align: center;
 	font-style: italic;
 	word-spacing: 3px;
@@ -80,7 +80,7 @@ nav ul li {
 	display: inline-block;
 	float: left;
 	list-style: none;
-	padding: 10px 9px;
+	margin-left: 57px;
 }
 
 nav a {
@@ -91,7 +91,7 @@ nav a {
 #dropdown {
 	display: none;
 	position: absolute;
-	width: 12%;
+	width: 20%;
 	border: 1px solid black;
 }
 
@@ -103,18 +103,12 @@ nav li:hover #dropdown {
 
 nav li:hover #dropdown li {
 	display: block;
-	position: relative;
 	text-align: left;
 	background-color: white;
 }
 
-#dropdown li:hover {
-	font-weight: bold;
-	color: #6DB0FC;
-}
-
-nav ul li a:hover {
-	font-weight: bold;
+nav ul li:hover, nav ul li:hover a {
+	border-bottom: 1px solid #6DB0FC;
 	color: #6DB0FC;
 }
 
