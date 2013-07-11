@@ -194,3 +194,14 @@ p {
 .hidden {
 	display: none;
 }
+
+.fixed {
+	position: fixed;
+	border-bottom: 1px solid black;
+	top: 0px;
+	width: 80%;
+}
+
+.fixed li {
+	float: right;
+}
